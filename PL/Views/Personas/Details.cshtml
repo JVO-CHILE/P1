@@ -1,0 +1,58 @@
+﻿@model DAL.Models.KbcPersona
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>KbcPersona</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.perRut)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.perRut)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.perNombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.perNombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.perPaterno)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.perPaterno)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.perMaterno)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.perMaterno)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.perMail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.perMail)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.perId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

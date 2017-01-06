@@ -1,0 +1,4 @@
+D:\Proyectos\Personal\P1\DL\bin\Debug\DL.dll
+D:\Proyectos\Personal\P1\DL\bin\Debug\DL.pdb
+D:\Proyectos\Personal\P1\DL\obj\Debug\DL.dll
+D:\Proyectos\Personal\P1\DL\obj\Debug\DL.pdb

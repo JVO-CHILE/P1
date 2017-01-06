@@ -1,0 +1,16 @@
+D:\Proyectos\Personal\P1\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+D:\Proyectos\Personal\P1\BL\bin\Debug\BL.dll
+D:\Proyectos\Personal\P1\BL\bin\Debug\BL.pdb
+D:\Proyectos\Personal\P1\BL\bin\Debug\DAL.dll
+D:\Proyectos\Personal\P1\BL\bin\Debug\DL.dll
+D:\Proyectos\Personal\P1\BL\bin\Debug\EntityFramework.dll
+D:\Proyectos\Personal\P1\BL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Proyectos\Personal\P1\BL\bin\Debug\System.Web.Mvc.dll
+D:\Proyectos\Personal\P1\BL\bin\Debug\DAL.pdb
+D:\Proyectos\Personal\P1\BL\bin\Debug\DL.pdb
+D:\Proyectos\Personal\P1\BL\bin\Debug\EntityFramework.xml
+D:\Proyectos\Personal\P1\BL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Proyectos\Personal\P1\BL\bin\Debug\System.Web.Mvc.xml
+D:\Proyectos\Personal\P1\BL\bin\Debug\es\System.Web.Mvc.resources.dll
+D:\Proyectos\Personal\P1\BL\obj\Debug\BL.dll
+D:\Proyectos\Personal\P1\BL\obj\Debug\BL.pdb

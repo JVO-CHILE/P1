@@ -1,0 +1,11 @@
+D:\Proyectos\Personal\P1\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\Proyectos\Personal\P1\DAL\bin\Debug\DAL.dll
+D:\Proyectos\Personal\P1\DAL\bin\Debug\DAL.pdb
+D:\Proyectos\Personal\P1\DAL\bin\Debug\DL.dll
+D:\Proyectos\Personal\P1\DAL\bin\Debug\EntityFramework.dll
+D:\Proyectos\Personal\P1\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Proyectos\Personal\P1\DAL\bin\Debug\DL.pdb
+D:\Proyectos\Personal\P1\DAL\bin\Debug\EntityFramework.xml
+D:\Proyectos\Personal\P1\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Proyectos\Personal\P1\DAL\obj\Debug\DAL.dll
+D:\Proyectos\Personal\P1\DAL\obj\Debug\DAL.pdb

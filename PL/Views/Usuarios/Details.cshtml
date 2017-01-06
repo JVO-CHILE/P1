@@ -1,0 +1,66 @@
+﻿@model DAL.Models.KbcUsuario
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>KbcUsuario</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.KbcPerfil.perfNombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.KbcPerfil.perfNombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.KbcPersona.perNombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.KbcPersona.perNombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.usuUserName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.usuUserName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.usuClave)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.usuClave)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.usuTipo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.usuTipo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.usuVigente)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.usuVigente)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.usuId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,63 @@
+﻿@model IEnumerable<DAL.Models.KbcUsuario>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.KbcPerfil.perfNombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.KbcPersona.perNombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.usuUserName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.usuClave)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.usuTipo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.usuVigente)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.KbcPerfil.perfNombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.KbcPersona.perNombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.usuUserName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.usuClave)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.usuTipo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.usuVigente)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.usuId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.usuId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.usuId })
+        </td>
+    </tr>
+}
+
+</table>
